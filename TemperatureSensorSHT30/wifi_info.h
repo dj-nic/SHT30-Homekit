@@ -14,8 +14,8 @@
 #include <WiFi.h>
 #endif
 
-const char *ssid = "WEBHOMEO";
-const char *password = "&91959712620060376214!";
+const char *ssid = "YOUR_WIFI";
+const char *password = "YOUR_PASSWORD";
 
 void wifi_connect() {
 	WiFi.persistent(false);
